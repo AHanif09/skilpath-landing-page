@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*margin: 20px 40px;*/
+    background-color: white;
+    box-shadow: 0px 0.5px 3px 0px;
+    padding: 10px;
+
+}
+
+.navTitle {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    
+}
+
+.navTitle h1{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #66D37E;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding-right: 30px;
+    align-items: center;
+}
+ 
+#login {
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 5px 10px;
+    
+}
+
+#navLink > li > a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+#hero {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #66D37E;
+    padding: 40px;
+}
+
+#hero-img{
+    padding-top: 40px;
+    background-color: #60C376;
+    border-radius: 100%;
+}
+
+
+#hero-text h1,h2,p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 5px;
+}
+
+#hero-text > h1{
+    font-size: 62px;
+    
+}
+
+#hero-text > h2{
+    font-size: 50px;
+   
+}
+
+#hero-text > p{
+    font-size: 17px;
+   
+}
+
+
+.heroTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroTitle h1{
+    margin-left: 10px;
+    color: white;
+    font-size: 23px;
+}
+
+#service-text {
+    margin-bottom: 30px;
+}
+
+#service-text > h3{
+    display: flex;
+    justify-content: center;
+    color: #66D37E;
+    font-size: 30px;
+ 
+}
+
+#service-text > #text-top{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+#service-text > #text-bottom{
+    margin-top: -5px;
+}
+
+#service-content {
+    display: flex;
+    justify-content: center;
+}
+
+#card1, #card2, #card3{
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    height: 130px;
+    box-shadow: 0px 2px 5px 0px;
+}
+
+
+#card2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+#card-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size: 25px;
+    font-family: arial;
+    color: #66D37E;
+    margin: -5px;
+    display: flex;
+    justify-content: center;
+}
+
+#form-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#form {
+    width: 600px;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #a7eab5;
+    height: min-content;
+    display: grid;
+}
+  
+
+#nama, #kota, #surel, #kode {
+    font-weight: normal;
+    grid-column: 1 / 2;
+}
+
+label[for="status"]{
+    grid-column: 1/2;
+    align-items: center;
+}
+
+#warning {
+    grid-column: 2/3;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"]
+ {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: right;
+    grid-column: 2/3;
+    margin-left: 50px;
+}
+
+
+#check {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+#status {
+    grid-column: 2/3;
+    margin-left: 10px;
+}
+
+#submit-form {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    grid-column: 2/3;
+    width: 100px;
+}
+  
+
+#warning {
+    color: red;
+    margin-top: 10px;
+}
+  
+
+#submit-form:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+#status{
+    width: 15px;
+}
+
+#cek{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+#cek > p{
+    color: black;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #66D37E;
+    box-shadow: 0px 0.5px 3px 0px;
+    padding: 10px;
+    height: 200px;
+}
+
+#footTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footTitle {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    
+}
+
+#footTitle > h1{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#footLink > li > a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: medium;
+}
